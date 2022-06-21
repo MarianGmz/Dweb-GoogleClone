@@ -1,0 +1,166 @@
+body{
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+    margin: 0;
+    height: 100%;
+    
+}
+
+header{
+    height: 200px;
+}
+
+nav{
+
+    width: 100%;
+    
+    
+}
+.nav_bar {
+    
+    margin: 0;
+    
+    
+}
+.nav_bar li{
+    list-style: none;
+    display: block;
+    float: right;
+    margin-right: 20px;
+    margin-top: 10px;
+    
+    
+}
+.nav_bar li a img{
+    position: relative;
+    top: 5px;
+    border-radius: 50%;
+    
+}
+.nav_bar li a img:hover{
+    box-shadow: #e5e9ed 4px 4px 4px 1px;
+    background-color: #d1d6dd;
+}
+.a{
+    color: rgba(0,0,0,.87);
+    position: relative;
+    top: 10px;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 17px;
+}
+.a:hover{
+    text-decoration: underline;
+}
+.avatar{
+    
+    border-radius: 50%;
+    width: 40px;
+}
+
+
+
+.logo_g{
+    margin: auto;
+    margin-bottom: 30px;
+    width: 450px;
+    display: block;
+}
+
+.search_placeholder{
+    font: var(--fa-font-solid);
+    content: "\f007";
+    
+    height: 50px;
+    display: block; 
+    margin: auto;
+    margin-top: 20px;
+    padding: 10px;
+    border-radius: 50px;
+    border: 1.4px solid #91979d8d;
+    
+}
+.search_placeholder:hover{
+    box-shadow: #70757a 1px 1px 1px 1px ;
+}
+
+.search_placeholder:placeholder-shown{
+    width: 710px;
+    padding: 10px;
+    letter-spacing: 320px;
+   
+}
+.search_placeholder:focus{
+    outline: none;
+}
+.search_placeholder::placeholder{
+    
+    font-size: 14px;
+}
+
+
+.search_foo{
+    width: 100%;
+    text-align: center;
+    display: block;
+    margin: auto;
+    
+   
+}
+.search_foo input{
+    margin: 20px;
+    width: 200px;
+    height: 35px;
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #70757a;
+}
+.search_foo input:hover{
+    border: solid 1px grey;
+    cursor: pointer;
+}
+footer{
+    background-color: #f2f2f2;
+    display: block;
+    position: relative;
+    top: 289px;
+    width: 100%;
+    height: 8vh;
+    margin: 0;
+    
+}
+.Pr_footer{
+    display: inline-block;
+    text-align: start;
+    width: 50%;
+    margin-top: 14px;
+    
+}
+.Seg_footer {
+   
+    display: block;
+    text-align: right;
+    width: 50%;
+    float: right;
+    margin-top: 14px;
+    
+}
+.Pr_footer a{
+    margin-left: 18px;
+    color: #70757a;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+.Seg_footer a{
+    margin-right: 18px;
+    color: #70757a;
+    font-weight: 500;
+    letter-spacing: 1px;
+    text-decoration: none;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
