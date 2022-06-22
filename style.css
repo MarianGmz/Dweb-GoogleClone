@@ -69,7 +69,7 @@ nav{
 .search_placeholder{
     font: var(--fa-font-solid);
     content: "\f007";
-    
+    width: 710px;
     height: 50px;
     display: block; 
     margin: auto;
@@ -83,18 +83,15 @@ nav{
     box-shadow: #70757a 1px 1px 1px 1px ;
 }
 
-.search_placeholder:placeholder-shown{
-    width: 710px;
-    padding: 10px;
-    letter-spacing: 320px;
-   
-}
 .search_placeholder:focus{
     outline: none;
+    width: 710px;
 }
 .search_placeholder::placeholder{
-    
+    width: 100%;
     font-size: 14px;
+    padding: 10px;
+    letter-spacing: 320px;
 }
 
 
