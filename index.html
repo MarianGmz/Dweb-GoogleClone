@@ -14,38 +14,52 @@
     <header>
         <nav>
             <ul class="nav_bar">
-                <li><a href="https://accounts.google.com/SignOutOptions?hl=es-419&continue=https://www.google.com/%3Fpccc%3D1"><img src="recursos/avatarG.png" alt="" class="avatar"></a></li>
-                <li><a href="https://www.google.com.ar/intl/es-419/about/products" target="_blank"><img src="recursos/appsG.png" alt="Aplicaciones Google" width="40px"></a></li>
-                <li><a class="a" href="">Imágenes</a> </li>
                 <li><a class="a" href="">Gmail</a> </li>
+                <li><a class="a" href="">Imágenes</a> </li>
+                <li><a href="https://www.google.com.ar/intl/es-419/about/products" target="_blank"><img src="recursos/appsG.png" alt="Aplicaciones Google" width="40px"></a></li>           
+                <li><a href="https://accounts.google.com/SignOutOptions?hl=es-419&continue=https://www.google.com/%3Fpccc%3D1"><img src="recursos/avatarG.png" alt="Foto perfil" class="avatar"></a></li>
+                
+                
                 
             </ul>
         </nav>
     </header>
     <main>
-        <img class="logo_g" src="recursos/google-logo.png" alt="" width="550px">
-        <input  type="search" class="search_placeholder" name="" id="" placeholder=" ">
-        <br>
-        <div class= "search_foo">
-            <a href=""><input type="submit" value="Buscar con Google"></a>
-            <a href=""><input type="submit" value="Me siento con suerte"></a>
-        </div>
+        
+        <section class="logo_g">
+            <img  src="recursos/google-logo.png" alt="" width="550px">
+        </section>
+        
+        <section class="inputs-section">
+            <div class="input_container">
+                <span class="lupa-icon"></span>
+                <input type="text" name="" id="">
+                <a href="" class="micro-icon"></a>
+            </div>
+        </section>
+        
+        <section  class= "search_buttons">
+            <div>
+                <a href=""><input type="submit" value="Buscar con Google"></a>
+            </div>
+            <div>
+                <a href=""><input type="submit" value="Me siento con suerte"></a>
+            </div>
+        </section>
     </main>
 
     <footer>
-
-
-        <div class="Pr_footer">
-            <a href="">Publicidad</a>
-            <a href="">Negocios</a>
-            <a href="">Sobre Google</a>
-            <a href="">Como funciona la Búsqueda</a>
-        </div>
-        <div class="Seg_footer">
-            <a href="">Privacidad</a>
-            <a href="">Condiciones</a>
-            <a href="">Preferencias</a>
-        </div>
+        <ul class="footer-l">
+            <li> <a href=""> Sobre Google</a></li>
+            <li> <a href="">Publicidad</a></li>
+            <li> <a href="">Nogocios</a></li>
+            <li> <a href="">Como funciona la Búsqueda</a></li>
+        </ul>
+        <ul class="footer-r">
+            <li><a href="">Privacidad</a></li>
+            <li><a href="">Condiciones</a></li>
+            <li><a href="">Preferencias</a></li>
+        </ul>
     </footer>
     
 </body>
